@@ -5,6 +5,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --primary-400: #d83232;
+
+  --quartary-400: #f2dea1;
+  --quartary-600: #968a66;
+
+  --quinary-0: #f7e1dc;
+
+  --grey-600: #1e1e1e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +24,7 @@
 }
 
 body {
-  color: var(--foreground);
+  color: var(--grey-600);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
