@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <main>
         <Image
-          className={`object-cover h-screen w-screen absolute top-0 left-0`}
+          className={`object-cover h-screen w-screen fixed top-0 left-0`}
           src={bgImage01}
           width={1024}
           alt="background image "
